@@ -1,23 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import Places from './components/Places';
+import Dates from './components/Dates';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    
+      <div className="book-flight-widget">
+        <h3>Book your next flight</h3>
+        <form>
+          <div className="form-group">
+            <label>From</label>
+            <Places />
+          </div>
+          <div className="form-group">
+            <label>To</label>
+            <Places />
+          </div>
+          <div className="form-group left">
+            <label>Departure on or after</label>
+            <Dates />
+          </div>
+          <div className="form-group right">
+            <label>Return date</label>
+            <input type="date" name="" />
+          </div>
+          <input type="submit" value="Search" className="btn" />
+        </form>
+      </div>
     </div>
   );
 }
