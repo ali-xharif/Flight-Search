@@ -7,7 +7,7 @@ const options = {
   url: 'https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/browsedates/v1.0/US/USD/en-US/SFO-sky/LAX-sky/2022-09-01',
   params: {inboundpartialdate: '2022-12-01'},
   headers: {
-    'x-rapidapi-key': 'd6a59aeef1mshc9755a845626d4fp1f9cafjsn95cedbdc3a34',
+    'x-rapidapi-key': '1d6a59aeef1mshc9755a845626d4fp1f9cafjsn95cedbdc3a340',
     'x-rapidapi-host': 'skyscanner-skyscanner-flight-search-v1.p.rapidapi.com'
   }
 };

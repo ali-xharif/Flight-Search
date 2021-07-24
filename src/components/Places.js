@@ -7,7 +7,7 @@ const options = {
   url: 'https://skyscanner-skyscanner-flight-search-v1.p.rapidapi.com/apiservices/autosuggest/v1.0/UK/GBP/en-GB/',
   params: {query: 'Stockholm'},
   headers: {
-    'x-rapidapi-key': 'd6a59aeef1mshc9755a845626d4fp1f9cafjsn95cedbdc3a34',
+    'x-rapidapi-key': '1d6a59aeef1mshc9755a845626d4fp1f9cafjsn95cedbdc3a340',
     'x-rapidapi-host': 'skyscanner-skyscanner-flight-search-v1.p.rapidapi.com'
   }
 };
